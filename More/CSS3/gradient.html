@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        #grad1 {
+            height: 100px;
+            background: -webkit-linear-gradient(red, green); /* For Safari 5.1 to 6.0 */
+            background: -o-linear-gradient(red, green); /* For Opera 11.1 to 12.0 */
+            background: -moz-linear-gradient(red, green); /* For Firefox 3.6 to 15 */
+            background: linear-gradient(red, green); /* Standard syntax (must be last) */
+        }
+
+        #grad2 {
+            height: 150px;
+            width: 200px;
+            background: -webkit-radial-gradient(blue, green, red); /* Safari 5.1 to 6.0 */
+            background: -o-radial-gradient(blue, green, red); /* For Opera 11.6 to 12.0 */
+            background: -moz-radial-gradient(blue, green, red); /* For Firefox 3.6 to 15 */
+            background: radial-gradient(blue, green, red); /* Standard syntax (must be last) */
+        }
+    </style>
+</head>
+<body>
+<h3>Linear Gradient - Top to Bottom</h3>
+<p>This linear gradient starts at the top. It starts red, transitioning to green:</p>
+<div id="grad1"></div>
+
+<h3>Radial Gradient - Evenly Spaced Color Stops</h3>
+<div id="grad2"></div>
+</body>
+</html>
